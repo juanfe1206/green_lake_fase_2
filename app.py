@@ -3,11 +3,11 @@ import pandas as pd
 import plotly.express as px
 
 # Cargar datasets
-ocupacion = pd.read_csv("/Users/manucalle/Personal Python Projects/Hackathon/ocupacion_hotelera.csv")
-opiniones = pd.read_csv("/Users/manucalle/Personal Python Projects/Hackathon/opiniones_turisticas.csv")
-rutas = pd.read_csv("/Users/manucalle/Personal Python Projects/Hackathon/rutas_turisticas.csv")
-transporte = pd.read_csv("/Users/manucalle/Personal Python Projects/Hackathon/uso_transporte.csv")
-sostenibilidad = pd.read_csv("/Users/manucalle/Personal Python Projects/Hackathon/datos_sostenibilidad.csv")
+ocupacion = pd.read_csv("data/ocupacion_hotelera.csv")
+opiniones = pd.read_csv("data/opiniones_turisticas.csv")
+rutas = pd.read_csv("data/rutas_turisticas.csv")
+transporte = pd.read_csv("data/uso_transporte.csv")
+sostenibilidad = pd.read_csv("data/datos_sostenibilidad.csv")
 
 st.set_page_config(page_title="GreenLake Village Dashboard", layout="wide")
 st.title("🌿 GreenLake Village - Panel de Turismo Inteligente")
